@@ -4,8 +4,8 @@ class Actions {
     return message
   }
 
-  onCommand(message, command, rest) {
-    return { message, command, rest }
+  onCommand (message, command, rest) {
+    return { message, command, rest}
   }
 }
 

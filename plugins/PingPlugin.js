@@ -4,7 +4,7 @@ const WAIT_TIME = 5000
 
 class PingPlugin {
 
-  constructor() {
+  constructor () {
     this.timeouts = {}
 
     this.bindListeners({
@@ -12,7 +12,7 @@ class PingPlugin {
     })
   }
 
-  onCommand(command) {
+  onCommand (command) {
     if (command.command !== 'ping') {
       return
     }
